@@ -1,0 +1,82 @@
+*{
+    font-family: 'Courier New';
+    background-color: lightgrey;
+}
+
+#quo1{
+    color:#A82400 !important;
+    /* background-color: bisque; */
+}
+#quo1{
+    color:midnightblue;
+}
+
+.up{
+    background-color: darkgreen;
+}
+
+.cred{
+    background-color:lightskyblue;
+}
+
+h3{
+    color:purple;
+}
+
+button{
+    color:white;
+    background-color:brown;
+}
+
+/* descendant selector */
+p a{
+    background-color: burlywood;
+}
+
+input[type="text"]{
+    background-color: rgb(217, 217, 113);
+    color:green;
+}
+input[type="password"]{
+    background-color: rgb(217, 217, 113);
+    color:green;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+button:active{
+    background-color: hotpink;
+}
+
+p:active{
+    font-weight: bold;
+    color:green;
+}
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+
+/* div:nth-of-type(2n){
+    background-color: blanchedalmond;
+} */
+
+/* h1::first-letter{
+    color:steelblue;
+} */
+
+p::first-line{
+    color:cornflowerblue;
+}
+
+p::selection{
+    background-color: blueviolet;
+}
